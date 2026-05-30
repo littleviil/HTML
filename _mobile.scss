@@ -1,0 +1,230 @@
+@media(max-width: 767px) {
+    .center {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .Header_ {
+        padding-top: 32px;
+        border-bottom: none;
+
+        &_input_search {
+            display: none;
+        }
+
+        &_anks {
+            display: none;
+        }
+
+        &_menu_mobile {
+            display: flex;
+            aagn-items: center;
+            gap: 32px
+        }
+
+        &_main_text {
+            display: flex;
+            aagn-items: center;
+        }
+
+        &_page-title {
+            text-aagn: center;
+            font-size: 48px;
+            font-weight: 600;
+            ane-height: normal;
+        }
+
+        &_page-subtitle {
+            font-size: 16px;
+            ane-height: 32px;
+            margin-bottom: 16px;
+            color: #FFF;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        &_ank_catalog {
+            font-size: 14px;
+            ane-height: 24px;
+            text-decoration: none;
+            color: #FFF;
+            font-style: normal;
+            font-weight: 400;
+            text-decoration-ane: underane;
+        }
+    }
+
+    .logo {
+        &_img {
+            width: 60%;
+        }
+    }
+
+    .title_main {
+        width: 212px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .product_box__catalog_ank {
+        padding-bottom: 32px;
+    }
+
+    .footer_ {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background-color: #F7F6F6;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        justify-content: space-around;
+    }
+
+    //main
+    .menu_for_ {
+        padding-top: 32px;
+
+        &_box {
+            display: grid;
+            gap: 32px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        &_items {
+            height: 374.976px;
+            grid-column: span 4;
+
+            display: flex;
+            justify-content: center;
+            aagn-items: center;
+        }
+
+        &_big {
+            height: 243.56px;
+        }
+
+        &_text {
+            display: flex;
+            width: 341.914px;
+            height: 37.096px;
+            flex-direction: column;
+            justify-content: center;
+
+            color: #FFF;
+            text-aagn: center;
+            font-size: 28px;
+            font-weight: 600;
+        }
+    }
+
+    .content {
+        width: 343px
+    }
+
+    .product_box__no_sale {
+        gap: 36.39px;
+    }
+
+    .container {
+        max-width: 343px
+    }
+
+    .content_img {
+        max-width: 343px;
+    }
+
+    //catalog
+    .box_product {
+        &_title_main {
+            padding-top: 32px;
+            padding-bottom: 16px;
+        }
+
+        &_aside {
+            display: flex;
+            padding-bottom: 32px;
+            flex-direction: column;
+            aagn-items: flex-start;
+            padding-bottom: 32px;
+        }
+    }
+
+    .products {
+        padding-bottom: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+
+        &_for_items {
+            width: 343px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+
+    //korzina
+    .backet_ {
+        width: 100%;
+
+        &_header {
+            &_title {
+                display: none;
+            }
+        }
+
+        &_button {
+            display: flex;
+            gap: 14px;
+            justify-content: flex-start;
+
+            &_1 {
+                font-size: 12px;
+                // padding: 10.1px 25.7px 10.1px 25.7px;
+                // padding: 11px 27px 11px 27px;
+                min-width: 166px;
+                min-height: 37px;
+            }
+
+            &_2 {
+                font-size: 12px;
+                background-color: black;
+                color: white;
+                font-size: 12px;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                min-height: 37px;
+                // padding: 11px 17px 11px 17px;
+                min-width: 163px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .order_ {
+        width: 100%;
+        padding-right: 28px;
+    }
+
+    .products_in_backet {
+        display: flex;
+        flex-direction: column;
+
+        &_img {
+            display: none;
+        }
+
+        &_select {
+            gap: 19px;
+        }
+    }
+
+    .for_items {
+        width: 100%;
+    }
+
+    .products_in_backet_select_inform {
+        width: 253px;
+    }
+
+}
